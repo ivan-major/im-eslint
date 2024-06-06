@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@rushstack/eslint-config": "^3.7.0",
+    "@rushstack/eslint-patch": "^1.10.3",
+    "@tresjs/cientos": "^3.9.0",
+    "@tresjs/core": "^4.0.1",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "eslint": "^8.57.0",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  }
+}
